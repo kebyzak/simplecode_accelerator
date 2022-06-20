@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:simplecode_accelerator/generated/l10n.dart';
+import 'package:simplecode_accelerator/ui/people_screen.dart';
 
 import 'home_screen.dart';
 
@@ -101,7 +102,7 @@ class _LoginScreenState extends State<LoginScreen> {
                           Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => const HomeScreen(),
+                              builder: (context) => PeopleScreen(),
                             ),
                           );
                         } else {

@@ -24,7 +24,14 @@ dev_dependencies:
   flutter_lints: ^2.0.0
 
 flutter:
-
   uses-material-design: true
+  assets:
+    - assets/images/svg/
+    - assets/images/bitmap/
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: fonts/Roboto-Medium.ttf
+
 flutter_intl:
   enabled: true
